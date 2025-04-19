@@ -5,8 +5,6 @@ git_branch() {
 
 export PS1="\u@\h\[\033[32m\]\w\[\033[33m\]\$(git_branch)\[\033[00m\]\$ "
 
-RPI_USER="bub"
-
 alias l='ls -lh --color=auto'
 alias ll='ls -lAh --color=auto'
 alias ..='cd ..'
