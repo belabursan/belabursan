@@ -13,8 +13,8 @@
 	ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	undo = reset --soft HEAD~1
-	all-ours = --strategy-option ours
-	all-theirs = --strategy-options theirs
+	merge-all-ours = merge --strategy-option ours
+	merge-all-theirs = merge --strategy-options theirs
 
 [credential]
 	helper = /usr/local/share/gcm-core/git-credential-manager-core
